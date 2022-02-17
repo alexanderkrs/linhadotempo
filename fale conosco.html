@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8"/>
+	<title>Linha do Tempo Alexander</title>
+	<link rel="stylesheet" href="css/estilo.css"/>
+	<link rel="stylesheet" href="css/contato.css">
+
+</head>
+<script language="javascript" src="javascript/funcoes.js"></script>
+<body>
+<div id="interface">
+	<header id="cabecalho">
+		<hgroup>
+			<h1 style="text-align: left;">Linha do tempo</h1>
+			<h2 style="text-align: left;">Alexander</h2>
+		</hgroup>
+ 		<img id="icone" src="imagens/piscada.png">
+<nav id="menu">
+<h1>Menu Principal</h1>
+	<ul>
+	<li onmouseover="mudaFoto('imagens/piscada.png')" onmouseout="mudaFoto('imagens/imgalexander.png')"><a href="index.html">Home</a></li>
+	<li onmouseover="mudaFoto('imagens/explodiu.png')" onmouseout="mudaFoto('imagens/imgalexander.png')"><a href="infancia.html">1º Infância</a></li>
+	<li onmouseover="mudaFoto('imagens/dedo.png')" onmouseout="mudaFoto('imagens/imgalexander.png')"><a href="adolescencia.html">Infância e Adolescência</a></li>
+	<li onmouseover="mudaFoto('imagens/laptop.png')" onmouseout="mudaFoto('imagens/imgalexander.png')"><a href="jovem.html">Jovem</a></li>
+	<li onmouseover="mudaFoto('imagens/imgalexander.png')" onmouseout="mudaFoto('imagens/imgalexander.png')"><a href="fale conosco.html">Contato</a></li>
+	</ul>
+</nav>
+	</header>
+
+<form method="post" id="fContato" action="mailto:alexandercostafilho@gmail.com">
+
+<fieldset id="usuario">
+    <legend>Contato</legend>
+    <p><label for="cNome">Nome:<input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="Nome Completo"></p>
+    <p><label for="cEmail">E-mail: <input type="E-mail" name="tEmail" id="cEmail" size="20" maxlength="40" placeholder="joãozinho@gmail.com"> </p>
+    <p>Data de Nascimento: <input type="date" name="tNasc" id="cNasc"></p>
+    <fieldset id="sexo">
+        <legend>Sexo</legend>
+        <input type="radio" name="tSexo" id="cMasc"> <label for="cMasc">Masculino</label><br/>
+        <input type="radio" name="tSexo" id="cFem"> <label for="cFem">Feminino</label> 
+    </fieldset>
+</fieldset>
+
+<input class="botao" type="image" name="fContato" src="imagens/botao-enviar.png">
+</form>
+  
+</form>
+
+
+
+
+	<footer id="rodape">
+	<p>Copyright &copy; 2020 - By Alexander Costa Filho    
+	<br/><a href="https://www.facebook.com/alexandercostafilho.alexander" target="_blank">Facebook</a> |
+		 <a href="https://www.instagram.com/alexcfss/" target="_blank">Instagram </a></p> 
+</footer>
+
+
+</div>
+</body>
+</html>
